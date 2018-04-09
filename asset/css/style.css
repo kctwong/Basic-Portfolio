@@ -1,0 +1,213 @@
+/*css for index*/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+header {
+    color:#ffffff;
+    background:white;
+    border-color:#cccccc;
+}
+
+h1{
+    color: #4aaaa5;
+    text-align: left;
+    font-family:  'Georgia', Times, Times New Roman, serif;
+}
+
+body{
+    background:rgb(204, 204, 204);
+    border-color:#dddddd;
+    color: #777777;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#container{
+    margin-top:20px;
+
+}
+
+hr{
+    margin: 20px 0 0 0;
+}
+
+
+
+#content{
+    margin: 30px auto;
+    background-color:white;
+    Width: 960px;
+    line-height: 30px;
+    padding: 40px 30px 40px 30px;
+}
+
+#myname{
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    
+    left: 160px;
+    line-height: 100px;
+    height: 100px;
+    width: 200px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 9999px;
+    float: left;
+}
+
+
+ #navigation-bar {
+    height: 100px; /* change it to desired width */
+    margin-right: -540px;
+}
+
+#navigation-bar > a {
+    display: inline-block
+    vertical-align: top;
+    color: #777777;
+    margin-right: 10px;
+    height: 100px;        /* if you want it to take the full height of the bar */
+    line-height: 100px;    /* if you want it vertically middle of the navbar */
+    padding: 0px 14px 0px 0px;
+    border-right: 1px solid green;
+}
+
+a1 {
+    display: inline-block
+    vertical-align: top;
+    margin-right: 10px;
+    height: 100px;        /* if you want it to take the full height of the bar */
+    line-height: 100px;    /* if you want it vertically middle of the navbar */
+    padding: 0px 14px 0px 0px;
+    
+}
+
+#topleft {
+    float:left;
+    
+}
+
+#topright{
+    text-align: left;
+}
+
+
+.clear{
+    clear:both;
+    float:none;
+    width:0;
+    height:0;
+    /*paddings and margins to 0*/
+}
+
+#subfooter {
+    margin-top: 50px;
+    background-color: #4aaaa5;
+    height: 5px;
+}
+
+footer {    
+    background-color: #666666;
+    height: 50px;
+    line-height: 80px;
+    font-size: 10px;
+    color:ffffff;
+
+}
+
+
+
+
+
+/*css for form*/
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(7 133 118);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#form-container {
+/*    background-color: #f2f2f2;*/
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+    text-align: left; /*not sure why this didn't work*/
+ }
+
+
+
+ /* CSS for portfolio */
+
+
+
+
+
+
+#imageblock {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:50px;
+}
+
+#imageblock > a{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    display: block;
+}
+
+a > #imagetext{
+    position:absolute;
+    margin-bottom: 0px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    height:50px;
+    Width: 280px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top:10px;
+    bottom:10px;
+    left:10px;
+}
+
+
+
+
+
+
+
+
+
+
